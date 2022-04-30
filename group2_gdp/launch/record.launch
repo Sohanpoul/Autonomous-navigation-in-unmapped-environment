@@ -1,0 +1,5 @@
+<launch>
+	<node name="bag_record" pkg="rosbag" type="record"
+        args="record -o $(arg bags_directory)/data /cameras/left/camera/image_raw /cameras/right/camera/image_raw 
+	/gps/odom /gps/fix /gps/vel /imu/data /steering_angle_degree"/>
+</launch>

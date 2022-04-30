@@ -1,0 +1,11 @@
+<launch>
+
+  <node pkg="group2_gdp" name="perception" type="perception_main.py" output="screen" required="true">
+  </node>
+
+  <node pkg="group2_gdp" name="planning" type="planning.py" output="screen" required="true">
+  </node>
+  <node pkg="group2_gdp" name="control" type="controller_main.py" output="screen" required="true">
+  </node>
+
+</launch>
