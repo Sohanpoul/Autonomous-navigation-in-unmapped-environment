@@ -1,0 +1,6 @@
+devel_space: /home/carla/Desktop/cv_bridge_ws/devel
+install: false
+install_space: /home/carla/Desktop/cv_bridge_ws/install
+profile: default
+source_space: /home/carla/Desktop/cv_bridge_ws/src
+workspace: /home/carla/Desktop/cv_bridge_ws
